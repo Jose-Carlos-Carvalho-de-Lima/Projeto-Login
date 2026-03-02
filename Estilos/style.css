@@ -34,9 +34,18 @@ section#Login{
     width: 250px;
     border-radius: 20px;
     overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+    transition: width 0.3s,heigth 0.3s;
+    transition-timing-function: ease;
 }
 section#Login > div#Imagem{
-    background-size: cover;
-    background-color: #5f2c82 url(../Imagens/imagemtelalogin.jpg);
-    height: 250px;
+    display: block;
+   background:  #5f2c82 url(../Imagens/imagemtelalogin.jpg) no-repeat;
+   background-size: cover;
+   height: 200px;
+}
+section#Login > div#Formulário{
+    display: block;
+    padding: 10px;
+    margin: 10px;
 }
