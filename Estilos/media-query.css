@@ -21,9 +21,15 @@ Telas grandes: acima de 1200px
         width: 30%;
         height: 100%;
     }
-    section#Login > div#Formulário{
+    section#Login > div#Formulario{
         float: right;
         width: 65%;
+    }
+    section#Login > div#Formulario > h1 {
+    font-size: 1.7em;
+    }
+    section#Login > div#Formulario > p{
+    font-size: 1.1em;
     }
 }
 
@@ -41,8 +47,16 @@ Telas grandes: acima de 1200px
         width: 50%;
         height: 100%;
     }
-    section#Login > div#Formulário{
+    section#Login > div#Formulario{
         float: right;
         width: 45%;
     }
+    section#Login > div#Formulario > h1 {
+    font-size: 2.0em;
+    }
+    section#Login > div#Formulario > p{
+    font-size: 1.2em;
+    }
+    
+    
 }
