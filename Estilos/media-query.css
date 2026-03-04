@@ -23,7 +23,7 @@ Telas grandes: acima de 1200px
     }
     section#Login > div#Formulario{
         float: right;
-        width: 65%;
+        width: 60%;
     }
     section#Login > div#Formulario > h1 {
     font-size: 1.7em;
